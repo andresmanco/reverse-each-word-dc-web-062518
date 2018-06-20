@@ -1,9 +1,9 @@
 def reverse_each_word(sentence1)
-  array = sentence1.split(' ')
-  arr2= []
+  sentence1.split(' ')
+  arr= []
   array.each do |s|
-    arr2 << s.reverse
+    arr << s.reverse
   end
-  arr2.join(' ')
+  arr.join(' ')
 end
 
